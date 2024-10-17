@@ -20,5 +20,19 @@ pipeline {
                 '''
             }
         }
+        stage('Test') { 
+            steps {
+                sh '''
+                    npm test
+                '''
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                sh '''
+                    echo "npm run deploy"
+                '''
+            }
+        }
     }
 }
