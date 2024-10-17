@@ -15,8 +15,7 @@ pipeline {
                     node --version
                     npm --version
                     npm set strict-ssl false
-                    npm install --no-package-lock
-                    npm run build
+                    npm ci
                     ls -la
                 '''
             }
