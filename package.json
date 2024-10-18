@@ -11,8 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1",
-    "jenkins-cicd-demo": "file:"
+    "express": "^4.21.1"
   },
   "devDependencies": {
     "jest": "^29.7.0",
